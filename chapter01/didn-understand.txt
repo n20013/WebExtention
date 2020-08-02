@@ -1,0 +1,41 @@
+n = int(input())
+
+
+l = [int(input()) for _ in range(n)] #[3,5,19,1,2]
+
+for n in sorted(l):
+	print(n)
+
+'\n'.join(list(map(str,sorted(l))))
+
+
+1行目で正の整数nが入力され、続くn行の各行で整数が1つずつ入力されます。n個の整数を小さい順に改行区切りで出力してください。
+
+＜条件＞すべてのテストケースにおいて、以下の条件をみたします。
+
+1 ≦ n ≦ 100
+1 ≦ i ≦ nについて、1 ≦ a_i ≦ 1000
+
+
+nums = []
+for i in range(int(input())):
+    a_i = int(input().rstrip())
+    nums.append(a_i)
+
+nums.sort()
+s = '\n'.join(nums)
+print(s)
+
+入力値
+5
+3
+5
+19
+1
+2
+
+error
+Traceback (most recent call last):
+File "Main.py", line 9, in <module>
+  s = '\n'.join(nums)
+TypeError: sequence item 0: expected str instance, int found

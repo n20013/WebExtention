@@ -1,0 +1,4 @@
+def add(*args, **kwargs):
+	return a + b
+l = [2,3]
+add(*l) *[2,3] -> 2, 3
