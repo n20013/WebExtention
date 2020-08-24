@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+header{
+	background-size: 50% auto;
+	background-color: rgba(34, 49, 52, 0.9);
+	padding: 1em;
+	color: #ff7f50;
+}
+
+h1{
+	font-size: 2em;
+}
+
+p{
+	padding: 0.25em 0.5em;
+	color: #494949;
+}
+
+h2{
+	position: relative;
+	padding: 0.6em;
+	border-bottom: solid 10px #ff7f50;
+	width: 300px;
+}
+
+a:hover{
+	color: #ffa07a;
+}
+
+a:active{
+	color: #bc8f8f;
+}
+
+.nav-list{
+	float: right;
+}
+
+.nav-list li{
+	list-style: none;
+	float: left;
+	width: 5em;
+}
+
+.catch-copy{
+	text-align: center;
+}
+
+[class^="introduce"] img{
+	width: 400px;
+	height: 240px;
+}
+
+.introduce-c{
+	display: inline-block;
+		vertical-align: middle;
+}
+
+.introduce-i{
+	display: inline-block;
+		vertical-align: middle;
+}
+
+.introduce-g{
+	display: inline-block;
+		vertical-align: middle;
+}
+
+/*学科紹介*/
+.department-image{
+	float: left;
+	position: relative;
+	margin-right: 1em;
+	margin-bottom: 0.5em;
+}
+
+.department-image img{
+	width: 100%;
+}
+
+.department-image h1{
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	font-size: 4em;
+	font-family: sans serif;
+	color: #f5f5dc;
+}
+
+.department-image p{
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	color: #f5f5dc;
+	font-weight: bold;
+}
+
+.describe{
+	overflow: hidden; 
+}
+
+.tables{
+	margin: 1em 3em;
+	padding: 0em 1em 1em;
+	border: 2px solid #ffa07a;
+}
+
+.tables td{
+	padding-left: 2em;
+}
+
+
+
