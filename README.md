@@ -12,3 +12,4 @@
 1. Chapter08 [リンクの設定と画像の表示](chapter08/ch08-linkimg.html)
 1. Chapter09 [ボックスと情報の整理](chapter09/ch09-boxcss.html)
 1. Chapter10 [テーブル](chapter10/ch10-table.html)
+1. Task01    [ITカレッジの紹介ページ]
