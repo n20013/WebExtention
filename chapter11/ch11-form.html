@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="ページ概要">
+	<title>ch11 フォームの練習</title>
+	<link rel="stylesheet" href="ch11-form.css">
+</head>
+<body>
+<form action="#" method="POST" id="contact">
+	<p><label for="name-field">お客様<span class="required">*必須</span></label><br>
+		<input type="text" name="name" id="name-field" required></p>
+
+	<p><label for="email-field">メールアドレス<span class="required">*必須</span></label><br>
+		<input type="email" name="email" id="email-field" required></p>
+
+	<p><label for="comment">お問い合わせ</label><br>
+		<textarea name="comment" id="comment"></textarea></p>
+
+	<p class="submit-p"><input type="submit" value="送信する" id="submit" name="submit"></p>
+
+</body>
+</html>
