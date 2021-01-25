@@ -54,26 +54,26 @@
 	<h2 class="home-h2">コース紹介</h2>
 	<ul class="home-course">
 		<li>
-			<a href="html.html"><figure><img src="images/course1.png" alt="HTML&CSS基礎">
-			<figcaption>HTML&amp;CSS基礎</figcaption>
-			</figure></a>
+		  <a href="html.html"><figure><img src="images/course1.png" alt="HTML&CSS基礎">
+		  <figcaption>HTML&amp;CSS基礎</figcaption>
+		  </figure></a>
 		</li>
 		<li>
-			<a href="#"><figure><img src="images/course2.png" alt="WordPressサイト構築">
-			<figcaption>WordPressサイト構築</figcaption>
-			</figure></a>
+		  <a href="#"><figure><img src="images/course2.png" alt="WordPressサイト構築">
+		  <figcaption>WordPressサイト構築</figcaption>
+		  </figure></a>
 		</li>
 		<li>
-			<a href="#"><figure><img src="images/course3.png" alt="Pythonでデータ解析">
-			<figcaption>Pythonでデータ解析</figcaption>
-			</figure></a>
+		  <a href="#"><figure><img src="images/course3.png" alt="Pythonでデータ解析">
+		  <figcaption>Pythonでデータ解析</figcaption>
+		  </figure></a>
 		</li>
 		<li>
-			<a href="#"><figure><img src="images/course4.png" alt="Rubyスクレイピング">
-			<figcaption>Rubyスクレイピング</figcaption>
-			</figure></a>
-		</li>
-	</ul>
+		  <a href="#"><figure><img src="images/course4.png
+
+
+
+
 </main>
 </div>
 </section>
